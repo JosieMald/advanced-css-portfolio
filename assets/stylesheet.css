@@ -1,3 +1,34 @@
-h1 {
-    color: red;
+:root {
+    --text: #82cece;
+    --background: #555b6e
+}
+
+/* Elemental Selectors */
+
+header {
+    color: var(--background);
+    background-color: var(--text);
+    width: 20%;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--background);
+    width: 100%;
+    height: 60px;
+}
+
+nav a {
+    padding: 5px;
+    padding-bottom: 10px;
+    align-self: flex-end;
+    color: var(--text);
+    font-size: 20px;
+
+}
+/* Class Selectors */
+
+.flex-container {
+    display: flex;
 }
