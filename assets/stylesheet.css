@@ -5,10 +5,14 @@
 
 /* Elemental Selectors */
 
-header {
+header h1 {
     color: var(--background);
     background-color: var(--text);
-    width: 20%;
+    width: 17%;
+    text-align-last: end;
+    padding-right: 10px;
+    position: absolute;
+    margin-top: 20px;
 }
 
 nav {
@@ -16,16 +20,16 @@ nav {
     justify-content: flex-end;
     background-color: var(--background);
     width: 100%;
-    height: 60px;
+    height: 80px;
 }
 
 nav a {
     padding: 5px;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
     align-self: flex-end;
     color: var(--text);
     font-size: 20px;
-
+    border: solid red;
 }
 /* Class Selectors */
 
