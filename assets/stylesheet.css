@@ -25,14 +25,30 @@ nav {
 
 nav a {
     padding: 5px;
-    /* padding-bottom: 10px; */
+    padding-bottom: 20px;
     align-self: flex-end;
     color: var(--text);
     font-size: 20px;
-    border: solid red;
+    font-weight: bold;
 }
+
+section h2 {
+    position: absolute;
+    align-self: flex-end;
+    padding: 10px;
+    color: var(--text);
+    background-color: var(--background);
+    font-weight: bold;
+    margin-right: 10px;
+}
+
 /* Class Selectors */
 
 .flex-container {
     display: flex;
+}
+
+.banner {
+    display: flex;
+    justify-content: flex-end;
 }
