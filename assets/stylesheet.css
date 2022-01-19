@@ -52,3 +52,26 @@ section h2 {
     display: flex;
     justify-content: flex-end;
 }
+
+/* ID Selectors */
+
+#about-me {
+    display: flex;
+    border: solid red;
+    width: 100%;
+    justify-content: center;
+}
+
+#about-me h1 {
+    border-right: solid var(--text) 5px;
+    text-align:right;
+    width: 6%;
+    padding-right: 1%;
+    height: 220px;
+    color: var(--background);
+}
+
+#about-me p {
+    width: 70%;
+    margin-left: 5%;
+}
