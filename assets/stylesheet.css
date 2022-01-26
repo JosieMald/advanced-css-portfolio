@@ -33,13 +33,13 @@ nav a {
 }
 
 section h2 {
-  /* position: absolute;
+  position: absolute;
   align-self: flex-end;
   padding: 10px;
   color: var(--text);
   background-color: var(--background);
   font-weight: bold;
-  margin-right: 10px; */
+  margin-right: 10px;
 }
 
 /* Class Selectors */
@@ -53,56 +53,50 @@ section h2 {
   justify-content: flex-end;
 }
 
-.wrapper {
-  display: flex;
-  justify-content: space-evenly;
-}
-
 .main-sidebar {
-    width: 350px;
-    height: 100vh;
-    background-color: turquoise;
+  width: 300px;
+  height: 100vh;
 }
 
 /* ID Selectors */
 
-#about-me {
+#about-me, #work, #contact-me {
   display: flex;
-  /* border: solid red; */
+  border: solid red;
   width: 100%;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 #about-me h1 {
-  flex: 2;
+  /* flex: 1; */
   border-right: solid var(--text) 5px;
   text-align: right;
-  /* width: 6%; */
-  padding-right: 1%;
+  width: 25%;
+  padding-right: 15px;
   height: 220px;
   color: var(--background);
 }
 
 #about-me p {
-  width: 80%;
-  margin-left: 5%;
-}
-
-#work {
-  display: flex;
-  border: solid red;
-  width: 100%;
-  justify-content: center;
-  flex-wrap: wrap;
+  /* width: 80%;
+  margin-left: 5%; */
 }
 
 #work h1 {
-  flex: 2;
   border-right: solid var(--text) 5px;
   text-align: right;
-  padding-right: 1%;
-  /* width: 7.5%; */
-  height: 1%vh;
+  padding-right: 15px;
+  width: 25%;
+  height: 75vh;
+  color: var(--background);
+}
+
+#contact-me h1 {
+  border-right: solid var(--text) 5px;
+  text-align: right;
+  padding-right: 15px;
+  width: 25%;
+  height: 220px;
   color: var(--background);
 }
 
@@ -112,5 +106,3 @@ section h2 {
   margin: 0 5% 5% 5%;
   border: red solid;
 }
-
-
