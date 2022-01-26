@@ -54,12 +54,21 @@ section h2 {
   height: 100vh;
 }
 
-.main-wrapper, .main-content {
+.main-wrapper, .main-content, .inner-content {
     display: flex;
 }
 
-.main-content p {
-    margin-left: 205px;
+.main-content {
+    flex-wrap: wrap;
+    margin-left: 196px;
+}
+
+.main-content .content-box {
+    width: 500px;
+    height: 350px;
+    background-color: var(--background);
+    margin: 10px;
+
 }
 
 /* ID Selectors */
