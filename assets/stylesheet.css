@@ -59,12 +59,12 @@ section h2 {
 
 .main-content {
     flex-wrap: wrap;
-    /* justify-content: center; */
+    justify-content: center;
     /* align-content: center; */
 }
 
 .main-content .content-box {
-    flex-basis: 45%;
+    /* flex-basis: 37.5%; */
     /* background-color: var(--background); */
     margin: 10px;
 
@@ -76,7 +76,7 @@ section h2 {
 }
 
 .main-content .content-box:nth-child(2) {
-    flex: 75%;
+    flex-basis: 80%;
 
 }
 
@@ -118,4 +118,8 @@ section h2 {
   width: 25%;
   height: 220px;
   color: var(--background);
+}
+
+#main-img {
+    width: 800px;
 }
