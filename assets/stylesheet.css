@@ -44,42 +44,44 @@ section h2 {
 
 /* Class Selectors */
 
-.flex-container {
-  display: flex;
-}
-
 .banner {
   display: flex;
   justify-content: flex-end;
 }
 
 .main-sidebar {
-  width: 300px;
+  width: 100px;
   height: 100vh;
+}
+
+.main-wrapper, .main-content {
+    display: flex;
+}
+
+.main-content p {
+    margin-left: 205px;
 }
 
 /* ID Selectors */
 
+/* SIDEBAR */
+
 #about-me, #work, #contact-me {
   display: flex;
   border: solid red;
-  width: 100%;
+  width: 300px;
   justify-content: flex-end;
 }
 
+/* SIDEBAR-CONTENT */
+
 #about-me h1 {
-  /* flex: 1; */
   border-right: solid var(--text) 5px;
   text-align: right;
   width: 25%;
-  padding-right: 15px;
+  padding-right: 27px;
   height: 220px;
   color: var(--background);
-}
-
-#about-me p {
-  /* width: 80%;
-  margin-left: 5%; */
 }
 
 #work h1 {
@@ -98,11 +100,4 @@ section h2 {
   width: 25%;
   height: 220px;
   color: var(--background);
-}
-
-#main-img {
-  flex: 10;
-  width: 80%;
-  margin: 0 5% 5% 5%;
-  border: red solid;
 }
