@@ -50,7 +50,6 @@ section h2 {
 }
 
 .main-sidebar {
-  width: 100px;
   height: 100vh;
 }
 
@@ -60,14 +59,24 @@ section h2 {
 
 .main-content {
     flex-wrap: wrap;
-    margin-left: 196px;
+    /* justify-content: center; */
+    /* align-content: center; */
 }
 
 .main-content .content-box {
-    width: 500px;
-    height: 350px;
-    background-color: var(--background);
+    flex-basis: 45%;
+    /* background-color: var(--background); */
     margin: 10px;
+
+}
+
+.main-content .content-box:first-child {
+    flex-basis: 90%;
+    
+}
+
+.main-content .content-box:nth-child(2) {
+    flex: 75%;
 
 }
 
