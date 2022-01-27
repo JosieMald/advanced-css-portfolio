@@ -64,6 +64,8 @@ section h2 {
 }
 
 .main-content .content-box {
+    display: flex;
+    justify-content: center;
     /* flex-basis: 37.5%; */
     /* background-color: var(--background); */
     margin: 10px;
@@ -86,7 +88,6 @@ section h2 {
 
 #about-me, #work, #contact-me {
   display: flex;
-  border: solid red;
   width: 300px;
   justify-content: flex-end;
 }
@@ -107,7 +108,7 @@ section h2 {
   text-align: right;
   padding-right: 15px;
   width: 25%;
-  height: 75vh;
+  height: 814px;
   color: var(--background);
 }
 
@@ -115,8 +116,8 @@ section h2 {
   border-right: solid var(--text) 5px;
   text-align: right;
   padding-right: 15px;
-  width: 25%;
-  height: 220px;
+  width: 50%;
+  height: 100px;
   color: var(--background);
 }
 
