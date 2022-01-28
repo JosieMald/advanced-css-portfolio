@@ -55,81 +55,95 @@ section h2 {
 
 /* MAIN CONTENT */
 
-.main-wrapper, .main-content, .inner-content {
-    display: flex;
+.main-wrapper,
+.main-content,
+.inner-content {
+  display: flex;
 }
 
 .main-content {
-    flex-wrap: wrap;
-    justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .main-content .content-box {
-    display: flex;
-    justify-content: center;
-    margin: 10px;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
 }
 
 .content-box img {
-    border: solid 7px var(--text);
+  border: solid 7px var(--text);
 }
 
 .main-content .content-box:first-child {
-    flex-basis: 90%;
+  flex-basis: 90%;
 }
 
 .main-content .content-box:nth-child(2) {
-    flex-basis: 80%;
+  flex-basis: 80%;
 }
 
 .content-box .content-links {
-    position: absolute;
-    padding: 15px;
-    margin-top: 500px;
-    margin-right: 651px;
-    background-color: var(--text);
-    text-decoration: none;
-    color: var(--background);
-    font-size: 20px;
-    font-weight: bold;
+  position: absolute;
+  padding: 15px;
+  margin-top: 500px;
+  margin-right: 651px;
+  background-color: var(--text);
+  text-decoration: none;
+  color: var(--background);
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .content-box .content-links-small {
-    position: absolute;
-    padding: 15px;
-    margin-top: 40px;
-    margin-right: 286px;
-    background-color: var(--text);
-    text-decoration: none;
-    color: var(--background);
-    font-size: 20px;
-    font-weight: bold;
+  position: absolute;
+  padding: 15px;
+  margin-top: 40px;
+  margin-right: 286px;
+  background-color: var(--text);
+  text-decoration: none;
+  color: var(--background);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.content-box img {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+.content-box img:hover {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 /* CONTACT CONTENT */
 
 .info-box {
-    display: flex;
-    margin-top: 27px;
-    font-size: 30px;
+  display: flex;
+  margin-top: 27px;
+  font-size: 30px;
 }
 
 .info-box p {
-    padding: 10px;
-    color: var(--background);
+  padding: 10px;
+  color: var(--background);
 }
 
 .info-box a {
-    padding: 10px;
-    align-self: center;
-    color: var(--background);
+  padding: 10px;
+  align-self: center;
+  color: var(--background);
 }
 
 /* ID Selectors */
 
 /* SIDEBAR */
 
-#about-me, #work, #contact-me {
+#about-me,
+#work,
+#contact-me {
   display: flex;
   width: 300px;
   justify-content: flex-end;
@@ -167,13 +181,9 @@ section h2 {
 /* MAIN IMG */
 
 #main-img {
-    width: 800px;
+  width: 800px;
 }
-
-
 
 #contact-me {
-    /* flex-basis: 100%; */
+  /* flex-basis: 100%; */
 }
-
-
