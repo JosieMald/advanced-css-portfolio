@@ -68,22 +68,49 @@ section h2 {
     display: flex;
     justify-content: center;
     margin: 10px;
+}
 
+.content-box img {
+    border: solid 7px var(--text);
 }
 
 .main-content .content-box:first-child {
     flex-basis: 90%;
-    
 }
 
 .main-content .content-box:nth-child(2) {
     flex-basis: 80%;
-
 }
+
+.content-box .content-links {
+    position: absolute;
+    padding: 15px;
+    margin-top: 500px;
+    margin-right: 651px;
+    background-color: var(--text);
+    text-decoration: none;
+    color: var(--background);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content-box .content-links-small {
+    position: absolute;
+    padding: 15px;
+    margin-top: 40px;
+    margin-right: 286px;
+    background-color: var(--text);
+    text-decoration: none;
+    color: var(--background);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* CONTACT CONTENT */
 
 .info-box {
     display: flex;
-    margin-top: 42px;
+    margin-top: 27px;
     font-size: 30px;
 }
 
@@ -96,10 +123,8 @@ section h2 {
     padding: 10px;
     align-self: center;
     color: var(--background);
-    /* text-decoration: ; */
-    /* border-bottom: solid 3px var(--background); */
-
 }
+
 /* ID Selectors */
 
 /* SIDEBAR */
@@ -126,7 +151,7 @@ section h2 {
   text-align: right;
   padding-right: 15px;
   width: 25%;
-  height: 814px;
+  height: 850px;
   color: var(--background);
 }
 
@@ -145,8 +170,10 @@ section h2 {
     width: 800px;
 }
 
+
+
 #contact-me {
-    flex-basis: 100%;
+    /* flex-basis: 100%; */
 }
 
 
